@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.14.3
 MAINTAINER Yago Ésquines
 
 WORKDIR /var/www/localhost/htdocs/
