@@ -1,4 +1,4 @@
-FROM alpine:3.14.6
+FROM alpine:3.15.5
 
 WORKDIR /var/www/localhost/htdocs/
 RUN apk --no-cache add apache2 php7-apache2 php7 php-session nmap && rm index.html \
